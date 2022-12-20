@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #12121212;
+}
+
+nav{
+    background: #6200EE;
+    border: 1px solid '#fffff'; 
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    height: 120px;
+}
+
+
+menu a{
+    color: white;
+    font-size: 40px;
+    float: left;
+    margin: 30px 0px 0px 80px;
+}
+menu h1{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: left;
+    padding: 40px 0px 0px  500px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #6200EE;
+    border-radius: 4px ;
+    resize: vertical;
+}
+.Payment{
+    width: 25%;
+    margin: 30px 0 10px 500px;
+}
+    
+p{
+    font-size: 15px;
+    color: #6200EE;
+    font-family: 'poppins';
+    padding-bottom: 18px;
+}
+input[placeholder]{
+    text-align: center;
+    color: #6200EE;
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 100;
+}
+input[id]{
+    color: #6200EE;
+    font-size: 15px;
+}
+.btn{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 100;
+    width: 350px;
+    background: #6200EE;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
+@media(max-width: 500px) {
+    menu a{
+        color: white;
+        font-size: 30px;
+        float: left;
+        margin: 40px 0px 0px 40px;
+    }
+    menu h1{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: white;
+        text-align: left;
+        padding: 40px 0px 0px  120px;
+    }
+    input{
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #6200EE;
+        border-radius: 4px ;
+        resize: vertical;
+    }
+    p{
+        font-size: 15px;
+        color: #6200EE;
+        font-family: 'poppins';
+        padding-bottom: 18px;
+    }
+    input[placeholder]{
+        text-align: center;
+        color: #6200EE;
+        font-size: 18px;
+        font-family: 'poppins';
+        font-weight: 100;
+    }
+    input[id]{
+        color: #6200EE;
+        font-size: 15px;
+    }
+    .Payment{
+        width: 60%;
+        margin: 30px 0 10px 100px;
+    }
+    .btn{
+        position: absolute;
+        font-size: 20px;
+        font-family: 'poppins';
+        font-weight: 100;
+        width: 280px;
+        background: #6200EE;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+}

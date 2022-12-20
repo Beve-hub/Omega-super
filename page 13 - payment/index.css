@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #12121212;
+}
+
+nav{
+    background: #6200EE;
+    border: 1px solid '#fffff'; 
+    border-radius: 0px 0px 20px 20px;
+    width: 100%;
+    height: 150px;
+}
+
+
+menu a{
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin: 30px 0px 0px 80px;
+}
+menu h1{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: left;
+    padding: 30px 0px 0px  600px;
+}
+
+.option {
+    background: white;
+    border-radius: 20px;
+    height: 68px;
+    width: 500px;
+    padding-top: 30px;
+    margin: 60px 0px 0px 400px;
+    border-radius: 10px; 
+    text-align: center;
+    justify-content: space-betwen;
+}
+
+p1{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-family: 'poppins';
+    padding: 20px;
+}
+p2{
+    font-size: 22px;
+    font-family: 'poppins';
+    font-weight: 500;
+    padding: 20px;  
+}
+.option img {
+    margin-left: 170px;
+    top: 21px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'poppins';
+    font-family: 400;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.slide-3{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.course-col-2{
+    background: #ffffff;
+    width: 400px;
+    height: 80px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.course-col-2 p1{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'poppins';
+    margin-top: 20px;
+    padding: 40px 0px 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.icon p2{
+    color: #6200EE;
+    padding-left: 60px;
+    font-size: 10px;
+}
+.event p3{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.event button{
+    color: #ffffff;
+    background: #6200EE;
+    border: #6200EE;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+footer{
+    background: #6200EE;
+    width: 100%;
+    height: 15vh;
+    margin-top: 20px;
+}
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+    align-items: center;
+}
+footer ul li{
+    display: inline-block;
+    justify-content: space-between;
+}
+footer ul li i{
+    margin: 30px 0px 0px 250px;
+    color: white;
+    font-size: 30px;
+}
+@media(max-width: 500px){
+    menu a{
+        color: white;
+        font-size: 30px;
+        float: left;
+        margin: 30px 0px 0px 40px;
+    } 
+
+    menu h1{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        color: white;
+        text-align: left;
+        padding: 30px 0px 0px  200px;
+    }
+    .option {
+        background: white;
+        border-radius: 20px;
+        height: 50px;
+        width: 370px;
+        padding-top: 10px;
+        margin: 60px 0px 0px 80px;
+        border-radius: 10px; 
+        text-align: center;
+        justify-content: space-betwen;
+    }
+    p1{
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 14px;
+        font-family: 'poppins';
+        padding: 20px;
+    }
+    p2{
+        font-size: 15px;
+        font-family: 'poppins';
+        font-weight: 200;
+        padding: 20px;  
+    }
+    .option img {
+        width: 30px;
+        margin-left: 130px;
+        top: 10px;
+    }
+    h2{
+        font-size: 20px;
+        font-family: 'poppins';
+        font-family: 200;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .slide-3{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        background: #6200EE;
+        width: 100%;
+        height: 15vh;
+        margin-top: 20px;
+    }
+    footer ul{
+        display: inline-block;
+        list-style-type: none;
+        align-items:flex-start;
+    }
+    footer ul li{
+        display: inline-block;
+        justify-content: space-between;
+    }
+    footer ul li i{
+        margin: 30px 0px 0px 80px;
+        color: white;
+        font-size: 20px;
+    }
+    
+}
