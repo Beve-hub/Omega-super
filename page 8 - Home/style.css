@@ -145,7 +145,7 @@ h3{
     width: 70px;
     height: 30px;
     padding: 5px;
-    margin-left: 70px;
+    margin-left: 20px;
     border-radius: 5px;
     text-decoration: none;
     transition: 0.5s;
@@ -173,15 +173,15 @@ h3{
     .slide-1{
         display: flex;
         flex-direction: row;
-        margin-top: 60px;
+        margin-top: 70px;
         margin-left: 10px;
         padding-left: 10px;
     }
     .course-col{
         background: #6200EE;
         width: 200px;
-        height: 80px;
-        padding-top: 7px;
+        height: 110px;
+        padding-top: 10px;
         margin-left: 10px;
         border-radius: 10px;
     
@@ -194,7 +194,7 @@ h3{
         color: white;
     }
     .course-col p4{
-        font-size: 10px;
+        font-size: 9px;
         font-family: 'poppins';
         font-weight: 100;
         padding: 8px 0px 10px 8px;
@@ -213,11 +213,13 @@ h3{
     .btn{
         background: white;
         color: #6200EE;
-        width: 80px;
-        height: 30px;
-        padding: 8px;
-        margin-left: 20px;
-        border-radius: 10px;
+        width: 30px;
+        height: 10px;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+        border-radius: 5px;
         text-decoration: none;
         transition: 0.5s;
     }
@@ -285,22 +287,76 @@ h4{
     justify-content: space-between;
 }
 @media(max-width: 500px){
-
+    h2{
+        font-size: 19px;
+        float: left;
+        margin: 30px 0px 0px 40px; 
+    }
+    p2{
+        font-size: 19px;
+        float: right;
+        margin: 30px 80px 0px 0px;
+    }
+    span{
+        position: absolute;
+        font-size: 14px;
+        float: left;
+        margin: 33px 0px 0px 10px; 
+    }
+    .slide-2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .course-col-1{
+        background: #6200EE;
+        width: 200px;
+        height: 100px;
+        padding-top: 7px;
+        margin-left: 10px;
+        border-radius: 10px;
+    
+    }
+    .course-col-1 p5{
+        font-size: 8px;
+        font-family: 'poppins';
+        margin-top: 10px;
+        padding: 10px 0px 6px 10px;
+        color: white;
+    }
+    .course-col-1 p6{
+        font-size: 9px;
+        font-family: 'poppins';
+        font-weight: 100;
+        padding: 8px 0px 10px 10px;
+        display: grid;
+        color: white;
+    }
+    
+    h4{
+        font-size: 10px;
+        font-family: 'poppins';
+        padding: 0px 0px 10px 8px;
+        display: grid;
+        color: white;
+    }      
 }
+
 .slide-3{
     display: flex;
-    justify-content:space-evenly;
     margin-top: 80px;
-    margin-left: 30px;
+    margin-left: 50px;
     padding-left: 20px;
 }
 .course-col-2{
     background: #ffffff;
     width: 300px;
     height: 130px;
+    margin-left: 30px;
     padding-top: 20px;
     border-radius: 10px;
-
 }
 .course-col-2 p5{
     font-size: 15px;
@@ -330,7 +386,24 @@ h4{
     font-size: 16px;
 }
 @media(max-width: 500px){
+    .slide-3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        padding-left: 20px; 
+        overflow: scroll;  
+    }
 
+    .course-col-2{
+        background: #ffffff;
+        width: 300px;
+        height: 130px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
 }
 footer{
     background: #6200EE;
